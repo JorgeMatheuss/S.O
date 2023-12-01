@@ -1,0 +1,35 @@
+Ex 1-
+
+2) Sim. Porque ocorre quando uma tarefa de maior prioridade entra na fila de prontos, interrompendo temporariamente a execução de tarefas de menor prioridade em algumas situações. O menor tempo de espera acontece quando o processo é iniciado e concluído sem interrupções, já que não houve necessidade de preempção causada por outros processos de maior prioridade."
+
+5) Não.
+
+Ex 2-
+
+6) T1: 4 u.t.; T2: 13 u.t. Sim.
+
+7) T1: 7 u.t.; T2: 10 u.t. Não.
+
+10) Sim.
+
+Ex 3-
+
+5) T1: 7 u.t.; T2: 6 u.t. Não.
+
+7) T1: 7 u.t.; T2: 6 u.t. Não.
+
+8) Ambas as políticas tem tempos de resposta iguais para ambas as tarefas, porém a política LLF tem mais que o dobro de trocas de contexto e um número alto de preempções (20, nesse caso), enquanto que na EDF não ocorreu nenhuma preempção nesse caso.
+
+10) EDF, pois exige menos do processador nesse caso.
+
+Ex 4-
+
+6) Bloqueia sempre que a tarefa começa a usar o recurso e desbloqueia assim que o recurso vai ficar livre para uso posterior. Não entendi a pergunta quanto a T2 bloquear/desbloquear S, já que ela não usa o recurso. Na linha do tempo, T1 bloqueia S nos tempos 1 e 14 e desbloqueia nos tempos 2, 12, 13 23 e 24. Já T3 bloqueia S nos tempos 4, 12 e 23 e desbloqueia no tempo 14.
+
+9) O recurso é menos usado agora e não ocorreu perda de deadline.
+
+10) Nos tempo 8.
+
+11) Os tempos de reposta do pior caso para T1 e T2 diminuiram bastante, enquanto que o de T3 aumentou e houve a detecção de perda de deadline, provavelmente por toda sua execução ser seção crítica.
+
+12) T1: 1, 13; T2: 4, 9, 14, 23
